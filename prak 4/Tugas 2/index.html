@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <title>Prak 4 Tugas 2-Bayu Nindioko - 120140088</title>
+</head>
+
+<body>
+    <!--header-->
+    <header>
+        <img src="120140088.png" alt="error"/>
+
+        <div class="sub" id="home">
+            <h1>I'M <span>BAYU NINDIOKO</span></h1>
+            <h2>Hanya mahasiswa biasa</h2>
+
+        </div>
+
+    </header>
+
+    <!--navbar-->
+    <div class="navbar">
+        <div class="home">
+            <ul>
+                <li><a href="#home">Bayooww</a></li>
+            </ul>
+        </div>
+
+        <div class="kanan">
+            <ul>
+                <li><a href="#tentang"> Tentang saya</a></li>
+                <li><a href="#pengalaman"> Pengalaman</a></li>
+                <li><a href="#komentar"> Komentar</a></li>
+                <li><a href="#contact"> Hubungi saya</a></li>
+            </ul>
+
+        </div>
+    </div>
+
+
+
+    <!--tentang saya -->
+    <div class="tentang" id="tentang">
+
+        <h2>TENTANG SAYA</h2>
+
+        <div class="description">
+        <p>Saya adalah seorang mahasiswa Teknik Informatika yang senang mencari <br>
+            tahu hal-hal yang baru atau belum saya ketahui.</p>
+
+        <p> <span>Tanggal lahir :</span> Jakarta, 16 Agustus 2002</p>
+        <p> <span>Lokasi :</span> Bandar Lampung</p>
+        <p> <span>Email :</span> nbayun2@gmail.com</p>
+        </div>
+    </div>
+
+    </div>
+
+
+    <!--riwayat pendidikan-->
+    <div class="pengalaman">
+        <div class="pendidikan" id="pengalaman">
+            <h2>PENDIDIKAN DAN PENGALAMAN ORGANISASI</h2>
+            <br>
+            <dl>
+                <dt>INSTITUT TEKNOLOGI SUMATERA</dt>
+                <dd>- Himpunan Mahasiswa Teknik Informatika Staff Divisi Technopreneur</dd>
+                <dd>- Panitia ICoSITeR divisi pusat data</dd>
+
+                <br>
+
+                <dt>SMA NEGERI 5 KOTA TANGERANG SELATAN</dt>
+                <dd>- Ketua Japanese Club SMAN 5 Tangerang Selatan TA 2018/2019</dd>
+            </dl>
+        </div>
+
+
+        <!--pengalaman training-->
+        <div class="pengalaman-training" >
+            <h2>PENGALAMAN TRAINING DAN PROJECT</h2>
+            <table>
+                <tr>
+                    <th>Bulan</th>
+                    <th>Course</th>
+                </tr>
+
+                <tr>
+                    <td>Juli 2022</td>
+                    <td>HTML & CSS on progate</td>
+                </tr>
+
+                <tr>
+                    <td>Juli 2022</td>
+                    <td>Javascript on progate</td>
+                </tr>
+
+                <tr>
+                    <td>Juli 2022</td>
+                    <td>Kursus SQLon progate</td>
+                </tr>
+
+                <tr>
+                    <td>Juli 2022</td>
+                    <td>Web Development (node.js) on Progate</td>
+                </tr>
+
+                <tr>
+                    <td>Agustus 2022</td>
+                    <td>Front end developer Website kembang.id</td>
+                </tr>
+
+                <tr>
+                    <td>Agustus 2022 - Oktober 2022</td>
+                    <td>Project Manajer starting project Techopreneur</td>
+                </tr>
+
+                <tr>
+                    <td>Juli 2022 - Oktober 2022</td>
+                    <td>Front end developer Website ICoSITer</td>
+                </tr>
+            </table>
+
+        </div>
+    </div>
+
+
+    <!--formulir-->
+    <div class="form" id="komentar">
+        <div class="formulir">
+            <h2>BERI KOMENTAR</h2>
+            <form>
+                <label for="fname">Nama depan:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="lname">Nama belakang:</label><br>
+                <input type="text" id="lname" name="lname"><br>
+
+                <p>Sudah membaca CV saya? </p>
+                <input type="radio" id="udah" name="pilihan" value="udah">
+                <label for="udah">Sudah</label><br>
+                <input type="radio" id="blom" name="pilihan" value="blom">
+                <label for="blom">Blom</label><br>
+                <input type="radio" id="skip" name="pilihan" value="skip">
+                <label for="skip">Skip</label>
+
+                <p>Dari data diri saya, yang mana yang paling menarik?</p>
+                <input type="checkbox" id="pilihan1" name="pilihan1" value="biodata">
+                <label for="pilihan1"> Biodata</label><br>
+                <input type="checkbox" id="pilihan2" name="pilihan2" value="pendidikan">
+                <label for="pilihan2"> Riwayat Pendidikan</label><br>
+                <input type="checkbox" id="pilihan3" name="pilihan3" value="training">
+                <label for="pilihan3"> Pengalaman Training</label><br>
+
+                <br> <br>
+                <label for="points">Rating website ini </label> <br>
+                <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+
+                <br> <br>
+                <input type="submit" value="Submit"/>
+
+            </form>
+        </div>
+
+        <!--video-->
+        <div class="video">
+            <iframe  src="https://www.youtube.com/embed/dFlDRhvM4L0"
+                title="YouTube video player"></iframe>
+        </div>
+
+    </div>
+
+    <center>
+    <p> Pilih tema (dark/light)! </p>
+    <label for="theme">Select theme: </label>
+    <button id="light" onclick="light()">Light</button>
+    <button id="dark" onclick="dark()">Dark</button>
+    
+    </center>
+
+
+    <!--footer-->
+    <footer>
+        <center>
+            <div class="contact" id="contact">
+
+                <h2>Hubungi Saya</h3>
+                <a href="mailto:nbayun2@gmail.com">
+                    <img src="gmail.jpg" alt="error" width="30">
+                </a>
+
+                <a href="https://www.instagram.com/bayunindioko_/">
+                    <img src="ig.png" alt="error" width="30">
+                </a>
+
+
+                <a href="https://twitter.com/Bayoooww">
+                    <img src="twitter.png" alt="error" width="30">
+                </a>
+
+                <a href="https://www.linkedin.com/in/bayunindioko/">
+                    <img src="linkedin.png" alt="error" width="30">
+                </a>
+
+                <h2>Praktikum Pemrograman Website D</h2>
+            </div>
+        </center>
+    </footer>
+
+    
+
+
+</body>
+<script src="javascript.js" defer></script>
+
+</html>

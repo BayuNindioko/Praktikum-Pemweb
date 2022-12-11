@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prak 1-Bayu Nindioko - 120140088</title>
+</head>
+
+<body> 
+    <!--header-->
+    <header>
+        <img src="120140088..jpg" alt="error" width="300" />
+        <div class="sub">
+            <h1>Halo, Saya Bayu Nindioko</h1>
+            <h2>Mahasiswa Teknik Informatika</h2>
+        </div>
+
+    </header>
+
+    <hr>
+    <!--navbar-->
+    <div class="navbar">
+        <ul>
+            <li><a href="#tentang"> Tentang saya</a></li>
+            <li><a href="#pendidikan"> Riwayat Pendidikan</a></li>
+            <li><a href="#pengalaman"> Pengalaman Training</a></li>
+            <li><a href="#contact"> Hubungi saya</a></li>
+        </ul>
+    </div>
+
+    <!--tentang saya -->
+    <div class="tentang" id="tentang">
+        <h2>Tentang Saya</h2>
+
+        <p>
+            Saya adalah seorang mahasiswa Teknik Informatika yang senang mencari<br />
+            tahu hal-hal yang baru atau belum saya ketahui.
+        </p>
+
+        <!--biodata menggunakan tabel, tidak ada border karena belum menggunakan css-->
+        <h2> Biodata</h2>
+        <table >
+            <tr>
+                <td>Nama</td>
+                <td>: Bayu Nindioko</td>
+            </tr>
+
+            <tr>
+                <td>NIM</td>
+                <td>: 120140088</td>
+            </tr>
+
+            <tr>
+                <td>Jenis Kelamin</td>
+                <td>: Laki-laki</td>
+            </tr>
+
+            <tr>
+                <td>Tempat tanggal lahir</td>
+                <td>: Jakarta, 16 Agustus 2002</td>
+            </tr>
+
+            <tr>
+                <td>Umur</td>
+                <td>: 20 tahun</td>
+            </tr>
+
+            <tr>
+                <td>Alamat</td>
+                <td>
+                    : Jalan Kinayungan 2 No.37, Pd.Kacang Barat, Kec. Pd.Aren, Kota
+                    Tangerang Selatan, Banten, 15226
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <hr>
+    <!--riwayat pendidikan-->
+    <div class="pendidikan" id="pendidikan">
+        <h2>Pendidikan dan Pengalaman Organisasi</h2>
+        <dl>
+            <dt>INSTITUT TEKNOLOGI SUMATERA</dt>
+            <dd>- Himpunan Mahasiswa Teknik Informatika Staff Divisi Technopreneur</dd>
+            <dd>- Panitia ICoSITeR divisi pusat data</dd>
+
+            <dt>SMA NEGERI 5 KOTA TANGERANG SELATAN</dt>
+            <dd>- Ketua Japanese Club SMAN 5 Tangerang Selatan TA 2018/2019</dd>
+        </dl>
+    </div>
+
+    <hr>
+    <!--pengalaman training-->
+    <div class="Pengalaman training" id="pengalaman">
+        <h2>Pengalaman Training & Project</h2>
+        <ul>
+            <li>Course "HTML & CSS on progate"</li>
+            <li>Course "Javascript on progate"</li>
+            <li>Course "Kursus SQLon progate"</li>
+            <li>Course "Web Development (node.js) on Progate"</li>
+            <li>Front end developer Website kembang.id</li>
+            <li>Project Manajer dalam starting project Techopreneur</li>
+            <li>Front end developer Website ICoSITer</li>
+        </ul>
+    </div>
+    <hr>
+
+    <!--formulir-->
+    <div class="form">
+        <h2>Fromulir</h2>
+        <h3>Isi formulir sembari setel musik di samping</h3>
+        <form>
+            <label for="fname">Nama depan:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Nama belakang:</label><br>
+            <input type="text" id="lname" name="lname"><br>
+
+            <p>Sudah membaca CV saya? </p>
+            <input type="radio" id="udah" name="pilihan" value="udah">
+            <label for="udah">Sudah</label><br>
+            <input type="radio" id="blom" name="pilihan" value="blom">
+            <label for="blom">Blom</label><br>
+            <input type="radio" id="skip" name="pilihan" value="skip">
+            <label for="skip">Skip</label>
+
+            <p>Dari data diri saya, yang mana yang paling menarik?</p>
+            <input type="checkbox" id="pilihan1" name="pilihan1" value="biodata">
+            <label for="pilihan1"> Biodata</label><br>
+            <input type="checkbox" id="pilihan2" name="pilihan2" value="pendidikan">
+            <label for="pilihan2"> Riwayat Pendidikan</label><br>
+            <input type="checkbox" id="pilihan3" name="pilihan3" value="training">
+            <label for="pilihan3"> Pengalaman Training</label><br>
+
+            <br> <br>
+            <label for="points">Rating website ini </label> <br>
+            <input type="range" id="points" name="points" min="0" max="100">
+
+            <br>
+            <input type="submit" value="Submit" />
+
+        </form>
+    </div>
+
+    <hr>
+    <!--video-->
+    <div class="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/dFlDRhvM4L0" title="YouTube video player"></iframe>
+    </div>
+
+
+
+    <hr>
+    <!--footer-->
+    <footer>
+        <div class="contact" id="contact">
+            <h2>Hubungi Saya</h2>
+
+            <a href="https://www.instagram.com/bayunindioko_/">
+                <img src="ig.png" alt="error" width="20">
+            </a>
+
+            <a href="https://twitter.com/Bayoooww">
+                <img src="twitter.png" alt="error" width="20">
+            </a>
+
+            <a href="https://www.linkedin.com/in/bayunindioko/">
+                <img src="linkedin.png" alt="error" width="20">
+            </a>
+
+            <h2>Praktikum Pemrograman Website D</h2>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
